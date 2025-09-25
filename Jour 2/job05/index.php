@@ -1,14 +1,15 @@
 <?php
-function estPremier($n) {
-    if ($n < 2) return false;
-    for ($i = 2; $i <= sqrt($n); $i++) {  
-        if ($n % $i == 0) return false;
+for ($n = 2; $n <= 1000; $n++) {
+    $diviseurs = 0;
+
+    for ($i = 1; $i <= $n; $i++) {
+        if ($n % $i == 0) {
+            $diviseurs++;
+        }
     }
-    return true;
-}
-for ($i = 2; $i <= 1000; $i++) {
-    if (estPremier($i)) {
-        echo $i . "<br />";
+
+    if ($diviseurs == 2) {
+        echo $n . "<br />";
     }
 }
 ?>
