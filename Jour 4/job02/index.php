@@ -14,8 +14,6 @@ if (!empty($_GET)) {
 
     echo "</tbody>";
     echo "</table>";
-} else {
-    echo "<p>Aucun argument GET n'a été envoyé.</p>";
 }
 ?>
 
