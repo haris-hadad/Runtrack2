@@ -1,0 +1,14 @@
+body {
+    background-color: #222;
+    font-family: "Courier New", monospace;
+    color: lime;
+}
+
+form {
+    padding: 20px;
+    border: 2px dashed lime;
+    background-color: rgb(255, 46, 238);
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
