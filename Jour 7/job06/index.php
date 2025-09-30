@@ -1,19 +1,19 @@
 <?php
-$lettres = [
-        'a' => '4',
-        'b' => '8',
-        'e' => '3',
-        'g' => '6',
-        'l' => '1',
-        'o' => '0',
-        's' => '5',
-        't' => '7'
+$leet = [
+        'A' => '4', 'a' => '4',
+        'B' => '8', 'b' => '8',
+        'E' => '3', 'e' => '3',
+        'G' => '6', 'g' => '6',
+        'L' => '1', 'l' => '1',
+        'G' => '0', 'g' => '0',
+        'S' => '5', 's' => '5',
+        'T' => '7', 't' => '7'
     ];
-    $str ="bonjour haris";
+    $str ="SALUT haris";
 
 
     
-function lettSpeak($lettres,$str)
+function lettSpeak($leet,$str)
 {   
     
     $newStr = "";
@@ -21,12 +21,12 @@ function lettSpeak($lettres,$str)
     for ($i = 0; $i < strlen($str); $i++) {
     
 
-        if (array_key_exists($str[$i], $lettres)) {
-            $newStr .= $lettres[$str[$i]];
+        if (array_key_exists($str[$i], $leet)) {
+            $newStr .= $leet[$str[$i]];
         } else {
             $newStr .= $str[$i];
         }
     }
     return  $newStr;
 }
-    echo lettSpeak($lettres,$str);
+    echo lettSpeak($leet,$str);
