@@ -1,5 +1,5 @@
 <?php
-$cookie_name = "nbvisites";
+$cookie_name =0;
 
 if (isset($_POST['reset'])) {
     setcookie($cookie_name, 0, time() - 3600);
@@ -10,7 +10,7 @@ if (isset($_POST['reset'])) {
     } else {
         $nbvisites = 1;
     }
-    
+
     setcookie($cookie_name, $nbvisites, time() + 30*24*3600);
 }
 ?>
