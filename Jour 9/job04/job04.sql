@@ -1,2 +1,2 @@
 USE jour09;
-SELECT FROM etudiants WHERE "name", "capacite";
+SELECT nom, capacite  FROM salles ;
