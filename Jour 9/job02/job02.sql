@@ -2,7 +2,7 @@ use jour09;
 INSERT INTO etudiants (prenom, nom, naissance,sexe,	email)
 VALUES ('Cyril', 'Zimmermann', '1989-01-02','Homme','cyril@laplateforme.io'),
        ('Jessica', 'Soriano', '1995-09-08' ,'Femme','jessica@laplateforme.io'),
-        ('Roxan', 'Rouméga', '1016-09-08' ,'Homme','roxan@laplateforme.io'),
+        ('Roxan', 'Rouméga', '2016-09-08' ,'Homme','roxan@laplateforme.io'),
         ('Pascal', 'Assen','1999-12-31'  ,'Homme','pascal@laplateforme.io'),
         ('Terry', 'Cristinelli', '2025-02-01', 'Homme','terry@laplateforme.io'),
         ('Ruben','Habib', '1993-05-26', 'Homme','ruben.habib@laplateforme.io'),
@@ -18,6 +18,8 @@ VALUES (1, "Lounge", 1, 100),
         (3, "Broadcasting", 2, 50),
         (5, "Coworking", 2, 80),
         (6, "Studio Video", 2, 5);
+use jour09;
+        UPDATE etudiants SET naissance = '2016-09-08' WHERE id =4;
 
 
 
