@@ -1,4 +1,3 @@
 USE jour09;
-SELECT nom AS nom FROM salles
-UNION
-SELECT nom AS nom FROM etage;
+SELECT * FROM `salles` 
+JOIN etage ON salles.id_etage=etage.id
