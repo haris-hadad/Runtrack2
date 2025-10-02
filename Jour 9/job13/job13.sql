@@ -1,3 +1,2 @@
 USE jour09;
-SELECT * FROM salles
-ORDER BY AVG capacite AS capacite_moyenne
+SELECT AVG(capacite) AS capacite_moyenne FROM salles;
