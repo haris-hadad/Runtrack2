@@ -1,3 +1,4 @@
 USE jour09;
-SELECT nom FROM etudiants
-WHERE etage AND salles
+SELECT nom FROM salles
+UNION
+SELECT nom FROM etage;
