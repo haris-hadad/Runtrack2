@@ -1,4 +1,4 @@
 USE jour09;
 
-SELECT* FROM salles, 1=1
+SELECT * FROM salles
 ORDER BY capacite DESC
