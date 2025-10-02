@@ -1,4 +1,4 @@
 USE jour09;
-SELECT nom FROM salles
+SELECT nom AS nom FROM salles
 UNION
-SELECT nom FROM etage;
+SELECT nom AS nom FROM etage;
