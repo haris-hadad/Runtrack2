@@ -5,7 +5,7 @@ $mysqli = new mysqli("localhost", "root", "", "jour09");
 $result = $mysqli->query("SELECT * FROM etudiants");
 
 if ($result && $result->num_rows > 0) {
-    echo "<table border='1'>";
+     echo "<table border='1' cellspacing='0' cellpadding='5'>";
     $fields = [];
     while ($field = $result->fetch_field()) {
         if ($field->name !== 'id') {
