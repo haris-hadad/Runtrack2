@@ -14,7 +14,7 @@ if (!$result) {
 
 if ($result->num_rows > 0) {
     echo "<table border='1' cellpadding='5' cellspacing='0'>";
-    echo "<tr><th>Prénom</th><th>Nom</th><th>Date de naissance</th><th>Sexe</th></tr>";
+    echo "<tr><th>Prénom</th><th>Nom</th><th>Date de naissance</th></tr>";
 
     $result->data_seek(0);
 
