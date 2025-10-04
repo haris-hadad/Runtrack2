@@ -1,0 +1,3 @@
+USE jour09;
+SELECT * FROM etudiants
+WHERE TIMESTAMPDIFF(YEAR, naissance, CURDATE())< 18;
