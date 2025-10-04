@@ -1,5 +1,5 @@
 use jour09;
-INSERT INTO etudiants (prenom, nom, naissance,sexe,	email)
+INSERT INTO etudiants (prenom, nom, naissance, sexe, email)
 VALUES ('Cyril', 'Zimmermann', '1989-01-02','Homme','cyril@laplateforme.io'),
        ('Jessica', 'Soriano', '1995-09-08' ,'Femme','jessica@laplateforme.io'),
         ('Roxan', 'Rouméga', '2016-09-08' ,'Homme','roxan@laplateforme.io'),
