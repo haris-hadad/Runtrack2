@@ -23,7 +23,6 @@ if ($result->num_rows > 0) {
                 <td>" . htmlspecialchars($row['prenom']) . "</td>
                 <td>" . htmlspecialchars($row['nom']) . "</td>
                 <td>" . htmlspecialchars($row['naissance']) . "</td>
-                <td>" . htmlspecialchars($row['sexe']) . "</td>
               </tr>";
     }
 
